@@ -1,9 +1,10 @@
 Context:
 	
+	This is a dataset consisting of features for tracks fetched using Spotify's Web API. The tracks are labeled '1' or '0' ('Hit' or 'Flop') depending on some criterias of the author.
+	This dataset can be used to make a classification model that predicts whethere a track would be a 'Hit' or not.
 	
-
-
-
+	(Note: The author does not objectively considers a track inferior, bad or a failure if its labeled 'Flop'. 'Flop' here merely implies that it is not a song that probably could not be considered popular in the mainstream.)
+	
 
 Acknowledgement:
 	
