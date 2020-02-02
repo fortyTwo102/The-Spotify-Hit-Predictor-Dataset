@@ -1,7 +1,7 @@
 Context:
 	
 	This is a dataset consisting of features for tracks fetched using Spotify's Web API. The tracks are labeled '1' or '0' ('Hit' or 'Flop') depending on some criterias of the author.
-	This dataset can be used to make a classification model that predicts whethere a track would be a 'Hit' or not.
+	This dataset can be used to make a classification model that predicts whether a track would be a 'Hit' or not.
 	
 	(Note: The author does not objectively considers a track inferior, bad or a failure if its labeled 'Flop'. 'Flop' here merely implies that it is not a song that probably could not be considered popular in the mainstream.)
 	
@@ -39,7 +39,7 @@ Attributes:
 
 	- acousticness: A confidence measure from 0.0 to 1.0 of whether the track is acoustic. 1.0 represents high confidence the track is acoustic. The distribution of values for this feature look like this:
 	
-	- instrumentalness: Predicts whether a track contains no vocals. ìOohî and ìaahî sounds are treated as instrumental in this context. Rap or spoken word tracks are clearly ìvocalî. The closer the instrumentalness value is to 1.0, the greater likelihood the track contains no vocal content. Values above 0.5 are intended to represent instrumental tracks, but confidence is higher as the value approaches 1.0. The distribution of values for this feature look like this:
+	- instrumentalness: Predicts whether a track contains no vocals. ‚ÄúOoh‚Äù and ‚Äúaah‚Äù sounds are treated as instrumental in this context. Rap or spoken word tracks are clearly ‚Äúvocal‚Äù. The closer the instrumentalness value is to 1.0, the greater likelihood the track contains no vocal content. Values above 0.5 are intended to represent instrumental tracks, but confidence is higher as the value approaches 1.0. The distribution of values for this feature look like this:
 	
 	- liveness: Detects the presence of an audience in the recording. Higher liveness values represent an increased probability that the track was performed live. A value above 0.8 provides strong likelihood that the track is live.
 	
